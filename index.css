@@ -280,7 +280,7 @@ section {
 
 .slides {
     width: 500vh;
-    height: 60vh;
+    height: 65vh;
     display: flex;
 }
 
@@ -300,8 +300,8 @@ section {
 
 .manual-navigation {
     position: relative;
-    width: 800px;
-    margin-top: -40px;
+    width: vh;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
 
