@@ -300,7 +300,7 @@ section {
 
 .manual-navigation {
     position: relative;
-    width: vh;
+    width: 0vh;
     margin-top: 5vh;
     display: flex;
     justify-content: center;
