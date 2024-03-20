@@ -8,7 +8,7 @@ document.getElementById("radio1").checked = true;
 
 setInterval(function(){
     nextimage();
-},4000)
+},5000)
 
 function nextimage(){
     count++;
