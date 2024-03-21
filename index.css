@@ -273,9 +273,11 @@ section {
 
 .slider {
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 125vh;
+    height: 70vh;
     overflow: hidden;
+    border-radius: 25px;
+    justify-content: center;
 }
 
 .slides {
@@ -295,7 +297,7 @@ section {
 }
 
 .slide img {
-    width: 800px;
+    width: 125vh;
 }
 
 .manual-navigation {
@@ -306,7 +308,7 @@ section {
     justify-content: center;
 
 }.manual-bnt {
-    border: 2px solid #fff;
+    border: 2px solid var(--main-color);
     padding: 5px;
     border-radius: 18px;
     cursor: pointer;
