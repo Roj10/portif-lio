@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function aviso(){
     alert("Quer café :) ?");
 }
@@ -18,7 +18,6 @@ function nextimage(){
     }
 
     document.getElementById("radio"+count).checked = true;
-=======
 function aviso(){
     alert("Quer café :) ?");
 }
@@ -38,5 +37,4 @@ function nextimage(){
     }
 
     document.getElementById("radio"+count).checked = true;
->>>>>>> 1aee274d8451c603f989b6f90ecbf422ce5aaaa5
 }
