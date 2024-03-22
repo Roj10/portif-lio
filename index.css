@@ -271,6 +271,16 @@ section {
     width: 100%;
 }
 
+.titulo {
+    margin: 2vh;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .slider {
     margin: 0 auto;
     width: 125vh;
@@ -278,8 +288,8 @@ section {
     overflow: hidden;
     border-radius: 25px;
     justify-content: center;
-    width: 800px;
-    height: 400px;
+    width: 125vh;
+    height: 65vh;
     overflow: hidden;
 }
 
