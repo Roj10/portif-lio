@@ -26,18 +26,38 @@ body {
     background: var(--bg-color);
 }
 
+.position-btn {
+    position: fixed;
+    top: 82vh;
+    padding: 2rem;
+}
+
+.btn {
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    background: var(--text-color);
+    border: .2rem solid var(--text-color);
+    border-radius: 25rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: var(--bg-color);
+    transition: .5s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--text-color);
+}
+
 .titulo {
     color: var(--text-color);
     position: fixed;
     top: 0;
-    left: 45%;
-    width: 100%;
     padding: 2rem;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
 }
 
 .container {
