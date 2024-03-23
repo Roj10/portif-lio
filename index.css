@@ -315,14 +315,13 @@ section {
 }
 
 .manual-navigation {
-    position: relative;
-    width: vh;
-    align-items: center;
-    margin-top: 5vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
 
-}.manual-bnt {
+.manual-bnt {
     border: 2px solid var(--main-color);
     border: 2px solid #fff;
     padding: 5px;
