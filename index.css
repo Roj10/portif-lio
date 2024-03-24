@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+/* primeira pagina, para fazer a capa */
+
 * {
     margin: 0;
     padding: 0;
@@ -271,6 +273,70 @@ section {
     width: 100%;
 }
 
+/* segunda pagina, para fazer o sbre mim */
+
+.txt-animado {
+    margin: 2vh;
+    font-size: 2.5rem;
+    color: var(--text-color);  
+}
+
+.txt-animado span {
+    position: absolute;
+}
+
+.txt-animado span::before {
+    content: "";
+    color: var(--main-color);
+    animation: palavras 20s infinite;
+}
+
+.txt-animado span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid var(--main-color);
+    right: -10px;
+    animation: cursor .8s infinite, digita 20s steps(15) infinite;
+    width: calc(100% + 15px);
+    background-color: var(--bg-color);
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 15px);
+    }
+}
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid var(--bg-color);
+    }
+}
+
+@keyframes palavras {
+    0%,20%{
+        content: "Olá, mundo!";
+    }
+    21%,40%{
+        content: "Sejá bem vindo!";
+    }
+    41%,60%{
+        content: "Me chamo Renan!";
+    }
+    61%,80%{
+        content: "Estudo TI!";
+    }
+    81%,100%{
+        content: "Me segue ai!";
+    }
+}
+
+/* terceira pagina, para fazer as capas das matérias */
+
 .titulo {
     margin: 2vh;
     font-size: 2.5rem;
@@ -397,5 +463,3 @@ section {
 #radio5:checked ~ .navigation-auto .auto-btn5 {
     background-color: #fff;
 }
-
-
