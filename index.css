@@ -31,6 +31,10 @@ body {
     color: #ededed;
 }
 
+html,body {
+    scrollbar-color: var(--main-color) var(--second-bg-color);
+}
+
 .btn-box {
     scrollbar-color: var(--main-color) var(--second-bg-color);
 }
@@ -333,6 +337,36 @@ section {
     81%,100%{
         content: "Me segue ai!";
     }
+}
+
+.trans-box {
+    border: 2px solid;
+    border-color: var(--main-color);
+    border-radius: 25px;
+    max-width: 100rem;
+    max-height: 100vh;
+    min-height: 70vh;
+    margin-right: 5px;
+    width: 50%;
+    font-size: 1.6rem;
+    margin: 2rem 0 4rem;
+}
+
+.trans-box p {
+    font-size: flex;
+    max-width: 100vh;
+    max-height: 100vh;
+    margin: 5rem 2rem 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.trans-box h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 /* terceira pagina, para fazer as capas das matérias */
