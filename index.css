@@ -345,7 +345,6 @@ section {
     border-radius: 25px;
     max-width: 100rem;
     max-height: 100vh;
-    min-height: 70vh;
     margin-right: 5px;
     width: 50%;
     font-size: 1.6rem;
@@ -353,9 +352,10 @@ section {
 }
 
 .trans-box p {
-    font-size: flex;
+    font-size: 2.5vh;
     max-width: 100vh;
     max-height: 100vh;
+    min-height: 50vh;
     margin: 5rem 2rem 4rem;
     justify-content: center;
     align-items: center;
@@ -366,7 +366,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 2vh;
 }
 
 /* terceira pagina, para fazer as capas das matérias */
