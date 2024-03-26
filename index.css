@@ -280,9 +280,13 @@ section {
 /* segunda pagina, para fazer o sbre mim */
 
 .txt-animado {
-    margin: 2vh;
+    margin: 1vh;
     font-size: 2.5rem;
     color: var(--text-color);  
+}
+.local-animado {
+    display: flex;
+    margin-left: 70%;
 }
 
 .txt-animado span {
@@ -341,7 +345,7 @@ section {
 
 .trans-box {
     border: 2px solid;
-    border-color: var(--main-color);
+    border-color: var(--second-bg-color);
     border-radius: 25px;
     max-width: 100rem;
     max-height: 100vh;
@@ -349,10 +353,11 @@ section {
     width: 50%;
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
+    transition: 1s;
 }
 
 .trans-box p {
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     max-width: 100vh;
     max-height: 100vh;
     min-height: 50vh;
@@ -367,6 +372,26 @@ section {
     justify-content: center;
     align-items: center;
     margin: 2vh;
+    transition: 1s;
+}
+
+.trans-box:hover h1 {
+    color: #0ef;
+}
+
+.trans-box, span {
+    transition: 1s;
+}
+
+.trans-box:hover span {
+    color: var(--main-color);
+    font-size: 2.4vh;
+}
+
+.trans-box:hover {
+    border-color: var(--main-color);
+    position: relative;
+    margin: 5rem 0rem 0rem;
 }
 
 /* terceira pagina, para fazer as capas das matérias */
