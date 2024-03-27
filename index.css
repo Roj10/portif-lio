@@ -392,6 +392,7 @@ section {
     border-color: var(--main-color);
     position: relative;
     margin: 5rem 0rem 0rem;
+    background-color: var(--second-bg-color);
 }
 
 /* terceira pagina, para fazer as capas das matérias */
@@ -521,4 +522,50 @@ section {
 
 #radio5:checked ~ .navigation-auto .auto-btn5 {
     background-color: #fff;
+}
+
+/* Quarta pagina, para fazer o curriculo */
+
+.curriculo {
+    border: 2px solid;
+    border-color: var(--second-bg-color);
+    margin: -10vh 25vh 0vh;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.curriculo:hover {
+    border-color: var(--main-color);
+    background-color: var(--second-bg-color);
+}
+
+.nome {
+    font-size: 3.3rem;
+    color: var(--main-color);
+}
+
+.prof {
+    display: flex;
+    font-size: 2.3rem;
+    color: var(--main-color);
+}
+
+.destaque {
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.p1 {
+    position: absolute;
+    margin: 2vh 5vh 2vh;
+    margin-right: 47%;
+    font-size: 2vh;
+}
+
+
+.p2 {
+    margin-right: 50vh;
+    margin: 5vh 5vh 5vh;
+    margin-left: 60%;
+    font-size: 2.2vh;
 }
