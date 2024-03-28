@@ -18,6 +18,7 @@
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0ef;
+    --second-text-color: #969696;
 }
 
 html {
@@ -410,11 +411,9 @@ section {
 .slider {
     margin: 0 auto;
     width: 125vh;
-    height: 70vh;
     overflow: hidden;
     border-radius: 25px;
     justify-content: center;
-    width: 125vh;
     height: 65vh;
     overflow: hidden;
 }
@@ -526,48 +525,154 @@ section {
 
 /* Quarta pagina, para fazer o curriculo */
 
-.curriculo {
-    border: 2px solid;
-    border-color: var(--second-bg-color);
-    margin: -10vh 25vh 0vh;
+.Vitae {
+    font-size: 10px;
+}
+
+.imgvitae {
+    width: 100%;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.proription {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.title {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.item_pretitle {
+    font-size: 1.4rem;
+    color: var(--second-text-color);
+    font-weight: 300;
+}
+
+.item_title {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin: 0.8rem;
+}
+
+.item_subtitle {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.container {
+    border: 2px solid var(--second-bg-color);
     border-radius: 25px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: var(--second-bg-color);
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
     transition: 1s;
 }
-
-.curriculo:hover {
-    border-color: var(--main-color);
-    background-color: var(--second-bg-color);
+.container:hover {
+    border: 2px solid var(--main-color);
 }
 
-.nome {
-    font-size: 3.3rem;
-    color: var(--main-color);
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 7rem;
+    }
 }
 
-.prof {
+.profile {
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+}
+
+.group-1 {
     display: flex;
-    font-size: 2.3rem;
-    color: var(--main-color);
+    flex-direction: column;
+    gap: 5rem;
 }
 
-.destaque {
+.profile_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.profile_containerimg {
+    max-width: 250px;
+}
+
+.profile_name_firstname {
+    color: var(--text-color);
+    font-weight: 200;
+    font-size: clamp(2rem, 8vw, 4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+
+.profile_name_lastname {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 15vw, 7rem);
+    text-transform: uppercase;
+    display: block;
+}
+
+.profile_title {
     font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.Downloadbnt {
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.Downloadbnt:hover {
     color: var(--main-color);
 }
 
-.p1 {
-    position: absolute;
-    margin: 2vh 5vh 2vh;
-    margin-right: 47%;
-    font-size: 2vh;
+@media only screen and (max-width: 768px) {
+    .profile_container {
+        flex-direction: column;
+    }
 }
 
+.skill_list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
 
-.p2 {
-    margin-right: 50vh;
-    margin: 5vh 5vh 5vh;
-    margin-left: 60%;
-    font-size: 2.2vh;
+.pro_item {
+    margin-top: 2rem;
+}
 
-    
+.pro_name {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.edu_item {
+    margin-top: 2rem;
 }
