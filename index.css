@@ -677,6 +677,36 @@ a {
     margin-top: 2rem;
 }
 
-.certification_item {
+.contato_item {
+    margin-top: 1rem;
+}
+
+.contatobnt {
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.contatobnt:hover {
+    color: var(--main-color);
+}
+
+.tec {
+    margin-top: 5rem;
+}
+
+.for {
+    margin-top: 5rem;
+}
+
+.for_item {
     margin-top: 2rem;
+}
+
+.icon {
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 9rem;
+    margin-top: -2rem;
 }
