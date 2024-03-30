@@ -652,6 +652,7 @@ a {
     text-decoration: underline;
     font-size: 1.6rem;
     margin-top: 1rem;
+    transition: 1s;
 }
 
 .Downloadbnt:hover {
@@ -715,4 +716,14 @@ a {
     margin-left: 3rem;
     margin-right: 9rem;
     margin-top: -2rem;
+}
+
+.pro-color {
+    color: var(--text-color);
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.pro-color:hover {
+    color: var(--main-color);
 }
