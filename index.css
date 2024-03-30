@@ -409,6 +409,7 @@ section {
 }
 
 .slider {
+    border: 2px solid var(--second-bg-color);
     margin: 0 auto;
     width: 125vh;
     overflow: hidden;
@@ -416,6 +417,11 @@ section {
     justify-content: center;
     height: 65vh;
     overflow: hidden;
+    transition: 1s;
+}
+
+.slider:hover {
+    border: 2px solid var(--main-color);
 }
 
 .slides {
@@ -460,7 +466,7 @@ section {
 }
 
 .manual-bnt:hover {
-    background-color: #fff;
+    background-color: var(--text-color);
 }
 
 #radio1:checked ~ .first {
