@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+    --second-text-color: #969696;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--bg-color);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    border-radius: 25px;
+    border: 2px solid var(--second-bg-color);
+    transition: 1s;
+}
+
+section:hover {
+    border: 2px solid var(--main-color);
+}
+
+section h2 {
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: var(--text-color);
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid var(--second-bg-color);
+    color: var(--text-color);
+    transition: all .7s;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+
+form button:hover {
+    border: 2px solid var(--text-color);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--bg-color);
+    flex-direction: column;
+}
+
+.text {
+    font-size: 45px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 15px 55px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+    transition: all 0.5s;
+    border-radius: 25px;
+    border: 2px solid var(--second-bg-color);
+}
+
+.btn:hover {
+    border: 2px solid var(--main-color);
+    border-radius: 25px;
+}
