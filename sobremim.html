@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sobre">
+        <div class="texto">
+                    <h1>Olá, mundo !!!</h1><br>
+        <h2>Se por acaso está lendo isso é poque quer saber um pouco mais sobre mim, correto ???</h2><br>
+        <h3>
+            Bom, pra começar eu me chamo Renan, tenho 17 anos, e estudo TI na escola SESI SENAI.<br>
+            Des de pequeno gostava de eletronicos e de tecnologia em geral, já mechia com computadores
+            e também já me imaginava trabalhando com computadores.<br>
+            Também gosto de desenhar e de fazer designs, já fiz picos nessas áreas e também gosto de 
+            fazer animações, fasso isso por hobbi mas não publico nada.<br>
+            Também tenho as minhas gatas que estão sempre me fazendo feliz por serem sempre muito fofas,
+            sem brincadeira essa imagem ao lado nao está ai a toa haha.<br> 
+            Essa é a shiquinha, ela sempre dorme no meu braço quando eu vou fazer algum projeto ou quando 
+            vou programar, ela sempre está junto comigo quando estou fazendo algo no PC.<br>
+            Enfim voltando ao assunto, eu nao falo muito mas mesmo assim gosto de conversar com todos, e
+            principalmente com os meus amigos.<br>
+            Então acho que é isso não sei o que mais dizer aqui então espero que tenha se divertido vendo
+            o meu portfólio :).<br>
+            até a práxima !!!
+        </h3>
+
+        <a href="index.html">Voltar</a>
+        </div>
+        <img src="https://media.discordapp.net/attachments/1160342146163945665/1198051868350357554/20240119_204944.jpg?ex=6619c8c0&is=660753c0&hm=b1dcfc7cab66647294503f1680eeb055742876cc5172bb7d4c799770baa53ace&=&format=webp&width=308&height=411" alt="">
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            scroll-behavior: smooth;
+            font-family: 'poppins', sans-serif;
+        }
+
+        :root {
+            --bg-color: #1f242d;
+            --second-bg-color: #323946;
+            --text-color: #fff;
+            --main-color: #0ef;
+            --second-text-color: #969696;
+        }
+
+        body {
+            background: var(--bg-color);
+        }
+
+        .sobre {
+            margin: 7vh;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            font-size: 2.3vh;
+            margin: 3rem;
+        }
+
+        img {
+            border: 3px solid var(--second-bg-color);
+            display: flex;
+            border-radius: 25px;
+            margin-left: 25%;
+            margin-top: 0%;
+            max-width:100px;
+            max-height:100px;
+            min-height: 100%;
+            min-width: 55%;
+            width: auto;
+            height: auto;
+            transition: 1s;
+        }
+
+        img:hover {
+            border: 3px solid var(--main-color);
+        }
+        
+        .texto h2, h3 {
+            color: var(--second-bg-color);
+            transition: 1s;
+        }
+
+        .texto h1 {
+            color: var(--text-color);
+            transition: 1s;
+        }
+
+        .texto:hover h1 {
+            color: var(--main-color);
+            transition: 1s;
+        }
+
+        .texto:hover h2 {
+            color: var(--text-color);
+            transition: 1s;
+        }
+
+        .texto:hover h3 {
+            color: var(--text-color);
+            transition: 1s;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            transition: .5s;
+            cursor: pointer;
+            border: 2px solid var(--second-bg-color);
+            margin-left: 40%;
+            margin-right: 35%;
+            border-radius: 25px;
+            color: var(--text-color);
+        }
+
+        a:hover {
+            border: 2px solid var(--main-color);
+        }
+    </style>
+</body>
+</html>

@@ -2,6 +2,10 @@ function aviso(){
     alert("Quer café :) ?");
 }
 
+function aviso2(){
+    alert("Já tem dono !!! >:^");
+}
+
 let count = 1;
 
 document.getElementById("radio1").checked = true;
