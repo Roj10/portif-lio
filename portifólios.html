@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" type="image" href="src/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="titulo">Portfólios anteriores</h1>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2 style="color: var(--main-color);">2024</h2>
+                <h3>Portfólio 2024</h3>
+                <p>portfólio que está em andamento</p>
+                <a href="index.html">Abrir</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2 style="color: var(--main-color);">2023</h2>
+                <h3>Portfólio 2023</h3>
+                <p>portfólio feito em 2023 no canvas</p>
+                <a href="https://www.canva.com/design/DAFvfB9rI8E/fwYk-PLveDpmnUlpR-vSoA/edit?utm_content=DAFvfB9rI8E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Abrir</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2 style="color: red;">Erro</h2>
+                <h3>Portfólio 2022</h3>
+                <p>Infelismente o arquivo está corrompido</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="position-btn">
+        <a href="index.html" class="btn">Voltar</a>
+    </div>
+
+    <style>
+        :root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+    --second-text-color: #969696;
+}
+
+        .card:hover {
+            border-color: var(--main-color);
+        }
+
+    </style>
+
+    <script type="text/javascript" src="style.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>
+</body>
+</html>
