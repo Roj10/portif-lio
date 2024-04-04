@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="titulo">Certificados</h1>
+
+    <section class="Capas" id="Capas">
+        <div class="slider">
+                <div class="slides">
+                    <!-- Radio Buttons-->
+                    <input type="radio" name="radio-bnt" id="radio1">
+                    <input type="radio" name="radio-bnt" id="radio2">
+                    <input type="radio" name="radio-bnt" id="radio3">
+                    <input type="radio" name="radio-bnt" id="radio4">
+                    <input type="radio" name="radio-bnt" id="radio5">
+                    <input type="radio" name="radio-bnt" id="radio6">
+                    <input type="radio" name="radio-bnt" id="radio7">
+                    <!--Fim Radio Buttons-->
+
+                    <!--Slide Images-->
+                    <div class="slide first">
+                        <img src="/certificados/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/certificados/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/certificados/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/certificados/4.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/certificados/5.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/certificados/6.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/certificados/7.png" alt="">
+                    </div>
+
+                    
+                    <!--Fim Slide Images-->
+
+                    <!--Navigation auto-->
+                    <div class="--Navigation-auto">
+                        <div class="auto-bnt1"></div>
+                        <div class="auto-bnt2"></div>
+                        <div class="auto-bnt3"></div>
+                        <div class="auto-bnt4"></div>
+                        <div class="auto-bnt5"></div>
+                        <div class="auto-bnt6"></div>
+                        <div class="auto-bnt7"></div>
+                    </div>
+                </div>   
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-bnt"></label>
+            <label for="radio2" class="manual-bnt"></label>
+            <label for="radio3" class="manual-bnt"></label>
+            <label for="radio4" class="manual-bnt"></label>
+            <label for="radio5" class="manual-bnt"></label>
+            <label for="radio6" class="manual-bnt"></label>
+            <label for="radio7" class="manual-bnt"></label>
+        </div> 
+    </section>
+
+
+
+    
+
+<div class="position-btn">
+    <a href="index.html" class="btn">Voltar</a>
+</div>
+    
+    <script type="text/javascript" src="style.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>
+    <style>
+
+
+.slider {
+    border: 2px solid var(--second-bg-color);
+    margin: 0 auto;
+    width: 125vh;
+    overflow: hidden;
+    border-radius: 25px;
+    justify-content: center;
+    height: 65vh;
+    overflow: hidden;
+    transition: 1s;
+    }
+    
+    .slider:hover {
+    border: 2px solid var(--main-color);
+    }
+    
+    .slides {
+    width: 500vh;
+    height: 65vh;
+    display: flex;
+    }
+    
+    .slides input {
+    display: none;
+    }
+    
+    .slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+    }
+    
+    .slide img {
+    width: 125vh;
+    height: 65vh;
+    }
+    
+    .manual-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    }
+    
+    .manual-bnt {
+    border: 2px solid var(--main-color);
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: .5s;
+    }
+    
+    .manual-bnt:not(:last-child) {
+    margin-right: 40px;
+    }
+    
+    .manual-bnt:hover {
+    background-color: var(--text-color);
+    }
+    
+    #radio1:checked ~ .first {
+    margin-left: 0;
+    }
+    
+    #radio2:checked ~ .first {
+    margin-left: -25%;
+    }
+    
+    #radio3:checked ~ .first {
+    margin-left: -50%;
+    }
+    
+    #radio4:checked ~ .first {
+    margin-left: -75%;
+    }
+    
+    #radio5:checked ~ .first {
+    margin-left: -100%;
+    }
+    
+    #radio6:checked ~ .first {
+    margin-left: -125%;
+    }
+    
+    #radio7:checked ~ .first {
+    margin-left: -150%;
+    }
+    
+    .navigation-auto div {
+    border: 2px solid var(--main-color);
+    padding: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    }
+    
+    .navigation-auto {
+    position: absolute;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+    }
+    
+    #radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+    }
+    
+    #radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+    }
+    
+    #radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+    }
+    
+    #radio4:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+    }
+    
+    #radio5:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+    }
+    
+    #radio6:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+    }
+    
+    #radio7:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+    }
+
+    </style>
+    <script src="index3.js"></script>
+</body>
+</html>
