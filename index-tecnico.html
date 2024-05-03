@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-<h1 class="titulo">Tecnico</h1>
 
-<section class="Capas" id="Capas">
-    <div class="slider">
+<body>
+    <h1 class="titulo">Tecnico</h1>
+
+    <section class="Capas" id="Capas">
+        <div class="slider">
             <div class="slides">
                 <!-- Radio Buttons-->
                 <input type="radio" name="radio-bnt" id="radio1">
@@ -20,30 +22,31 @@
 
                 <!--Slide Images-->
                 <div class="slide first">
-                        <div class="container">
-                            <h1 class="Titulo">1° Trimestre</h1>
-                            <div class="alinhamento">
-                                <div class="card">
-                                    <div class="content">
-                                        <h2>01</h2>
-                                        <h3>Calculadora de horas</h3>
-                                        <p>È uma calculadora de horas que fizemos usando o React principalmente.</p>
-                                        <a href="src/trabalhotec.png">Mais Informações</a>
-                                    </div>
+                    <div class="container">
+                        <h1 class="Titulo">1° Trimestre</h1>
+                        <div class="alinhamento">
+                            <div class="card">
+                                <div class="content">
+                                    <h2>01</h2>
+                                    <h3>Calculadora de horas</h3>
+                                    <p>È uma calculadora de horas que fizemos usando o React principalmente.</p>
+                                    <a href="src/trabalhotec.png">Mais Informações</a>
                                 </div>
                             </div>
-                            <div class="container">
-                                <div class="card">
-                                    <div class="content">
-                                        <h2>02</h2>
-                                        <h3>Localhost</h3>
-                                        <p>Ultilizamos a linguagens java e fizemos o primeiro sistema de branco de dados.</p>
-                                        <a href="src/atividade-tecnico.png">Mais Informações</a>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+                        <div class="container">
+                            <div class="card">
+                                <div class="content">
+                                    <h2>02</h2>
+                                    <h3>Localhost</h3>
+                                    <p>Ultilizamos a linguagens java e fizemos o primeiro sistema de branco de dados.
+                                    </p>
+                                    <a href="src/atividade-tecnico.png">Mais Informações</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
                 <div class="slide">
                     <div class="container">
@@ -52,18 +55,21 @@
                             <div class="content">
                                 <h2>02</h2>
                                 <h3>Banco de dados</h3>
-                                <p>Fisemos um cronograma para fazer um ssitema de uma empresa em desenvolvimento de um sistema.</p>
+                                <p>Fisemos um cronograma para fazer um ssitema de uma empresa em desenvolvimento de um
+                                    sistema.</p>
                                 <a href="src/atividade2-tecnico.png">Mais Informações</a>
                             </div>
                         </div>
                     </div>
-                        </div>
+                </div>
                 <div class="slide">
                     <h1 class="Titulo">3° Trimestre</h1>
-                    <h1 style="display: flex; align-items: center; justify-content: center; margin-top: 25%; color: var(--text-color);">Ainda em produção</h1>
+                    <h1
+                        style="display: flex; align-items: center; justify-content: center; margin-top: 25%; color: var(--text-color);">
+                        Ainda em produção</h1>
                 </div>
 
-                
+
                 <!--Fim Slide Images-->
 
                 <!--Navigation auto-->
@@ -72,136 +78,133 @@
                     <div class="auto-bnt2"></div>
                     <div class="auto-bnt3"></div>
                 </div>
-            </div>   
+            </div>
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-bnt"></label>
+            <label for="radio2" class="manual-bnt"></label>
+            <label for="radio3" class="manual-bnt"></label>
+        </div>
+    </section>
+
+
+
+
+
+    <div class="position-btn">
+        <a href="index.html" class="btn">Voltar</a>
     </div>
-    <div class="manual-navigation">
-        <label for="radio1" class="manual-bnt"></label>
-        <label for="radio2" class="manual-bnt"></label>
-        <label for="radio3" class="manual-bnt"></label>
-    </div> 
-</section>
 
+    <script type="text/javascript" src="style.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>
+    <style>
+        .slider {
+            border: 2px solid var(--second-bg-color);
+            margin: 0 auto;
+            width: 125vh;
+            overflow: hidden;
+            border-radius: 25px;
+            justify-content: center;
+            height: 65vh;
+            overflow: hidden;
+            transition: 1s;
+        }
 
+        .slider:hover {
+            border: 2px solid var(--main-color);
+        }
 
+        .slides {
+            width: 500vh;
+            height: 65vh;
+            display: flex;
+        }
 
+        .slides input {
+            display: none;
+        }
 
-<div class="position-btn">
-<a href="index.html" class="btn">Voltar</a>
-</div>
+        .slide {
+            width: 25%;
+            position: relative;
+            transition: 2s;
+        }
 
-<script type="text/javascript" src="style.js"></script>
-<script>
-    VanillaTilt.init(document.querySelectorAll(".card"));
-</script>
-<style>
+        .slide img {
+            width: 125vh;
+            height: 65vh;
+        }
 
+        .manual-navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2vh;
+        }
 
-.slider {
-border: 2px solid var(--second-bg-color);
-margin: 0 auto;
-width: 125vh;
-overflow: hidden;
-border-radius: 25px;
-justify-content: center;
-height: 65vh;
-overflow: hidden;
-transition: 1s;
-}
+        .manual-bnt {
+            border: 2px solid var(--main-color);
+            border: 2px solid #fff;
+            padding: 5px;
+            border-radius: 18px;
+            cursor: pointer;
+            transition: .5s;
+        }
 
-.slider:hover {
-border: 2px solid var(--main-color);
-}
+        .manual-bnt:not(:last-child) {
+            margin-right: 40px;
+        }
 
-.slides {
-width: 500vh;
-height: 65vh;
-display: flex;
-}
+        .manual-bnt:hover {
+            background-color: var(--text-color);
+        }
 
-.slides input {
-display: none;
-}
+        #radio1:checked~.first {
+            margin-left: 0;
+        }
 
-.slide {
-width: 25%;
-position: relative;
-transition: 2s;
-}
+        #radio2:checked~.first {
+            margin-left: -25%;
+        }
 
-.slide img {
-width: 125vh;
-height: 65vh;
-}
+        #radio3:checked~.first {
+            margin-left: -50%;
+        }
 
-.manual-navigation {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 2vh;
-}
+        .navigation-auto div {
+            border: 2px solid var(--main-color);
+            padding: 5%;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
 
-.manual-bnt {
-border: 2px solid var(--main-color);
-border: 2px solid #fff;
-padding: 5px;
-border-radius: 18px;
-cursor: pointer;
-transition: .5s;
-}
+        .navigation-auto {
+            position: absolute;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+        }
 
-.manual-bnt:not(:last-child) {
-margin-right: 40px;
-}
+        .navigation-auto div:not(:last-child) {
+            margin-right: 40px;
+        }
 
-.manual-bnt:hover {
-background-color: var(--text-color);
-}
+        #radio1:checked~.navigation-auto .auto-btn1 {
+            background-color: #fff;
+        }
 
-#radio1:checked ~ .first {
-margin-left: 0;
-}
+        #radio2:checked~.navigation-auto .auto-btn2 {
+            background-color: #fff;
+        }
 
-#radio2:checked ~ .first {
-margin-left: -25%;
-}
-
-#radio3:checked ~ .first {
-margin-left: -50%;
-}
-
-.navigation-auto div {
-border: 2px solid var(--main-color);
-padding: 5%;
-border-radius: 10px;
-cursor: pointer;
-transition: 1s;
-}
-
-.navigation-auto {
-position: absolute;
-width: 700px;
-display: flex;
-justify-content: center;
-}
-
-.navigation-auto div:not(:last-child) {
-margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-background-color: #fff;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-background-color: #fff;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-background-color: #fff;
-}
-
-
-</style>
-<script src="index2.js"></script>
+        #radio3:checked~.navigation-auto .auto-btn3 {
+            background-color: #fff;
+        }
+    </style>
+    <script src="index2.js"></script>
 </body>
+
 </html>
