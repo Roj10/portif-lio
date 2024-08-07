@@ -776,14 +776,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
     font-size: 2rem;
     transition: .5s;
     cursor: pointer;
     border: 2px solid var(--second-bg-color);
     margin-left: 35%;
     margin-right: 35%;
-    border-radius: 25px;
+
 }
 
 .ppe:hover {
@@ -791,4 +790,12 @@ a {
     font-size: 2.5rem;
     margin-left: 32%;
     margin-right: 32%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: 1s;
 }
