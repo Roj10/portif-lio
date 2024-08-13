@@ -18,6 +18,7 @@
                 <input type="radio" name="radio-bnt" id="radio1">
                 <input type="radio" name="radio-bnt" id="radio2">
                 <input type="radio" name="radio-bnt" id="radio3">
+                <input type="radio" name="radio-bnt" id="radio4">
                 <!--Fim Radio Buttons-->
 
                 <!--Slide Images-->
@@ -61,6 +62,20 @@
                 </div>
                 <div class="slide second">
                     <div class="container">
+                        <h1 class="Titulo">1° Trimestre</h1>
+                        <div class="card">
+                            <div class="content">
+                                <h2>07</h2>
+                                <h3>Sistema Para Gerenciamento de Conteúdo - CMS</h3>
+                                <p> Perguntas e respostas sobre o sistema de gerenciamento de conteudo em CMS.
+                                </p>
+                                <a href="https://docs.google.com/document/d/1Pi71OhxzTxo1mJgYkHBPSjf-3MW5gwlBhdMM2YIDpNg/edit?usp=sharing">Mais Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide tre">
+                    <div class="container section">
                         <h1 class="Titulo">2° Trimestre</h1>
                         <div class="card">
                             <div class="content">
@@ -73,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide">
+                <div class="slide four">
                     <h1 class="Titulo">3° Trimestre</h1>
                     <h1
                         style="display: flex; align-items: center; justify-content: center; margin-top: 25%; color: var(--text-color);">
@@ -88,6 +103,7 @@
                     <div class="auto-bnt1"></div>
                     <div class="auto-bnt2"></div>
                     <div class="auto-bnt3"></div>
+                    <div class="auto-bnt4"></div>
                 </div>
             </div>
         </div>
@@ -95,6 +111,7 @@
             <label for="radio1" class="manual-bnt"></label>
             <label for="radio2" class="manual-bnt"></label>
             <label for="radio3" class="manual-bnt"></label>
+            <label for="radio4" class="manual-bnt"></label>
         </div>
     </section>
 
@@ -182,6 +199,10 @@
 
         #radio3:checked~.first {
             margin-left: -50%;
+        }
+
+        #radio4:checked~.first {
+            margin-left: -75%;
         }
 
         .navigation-auto div {
