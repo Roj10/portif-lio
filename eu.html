@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="src/foto.jpg" alt="">
+        <a href="index-linguagens.html" class="back-btn">Voltar</a>
+    </div>
+</body>
+</html>
+
+<style>
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container para a imagem e o botão */
+.container {
+    position: relative; /* Necessário para posicionar o botão dentro do container */
+    display: flex;
+    flex-direction: column; /* Organiza a imagem e o botão em coluna */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura de 100% da tela */
+    background-color: #1f242d;
+}
+
+/* Tornar a imagem responsiva */
+img {
+    max-width: 32%; /* A imagem nunca ultrapassará 30% da largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para o botão de voltar */
+.back-btn {
+    margin-top: 20px; /* Distância entre a imagem e o botão */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #414141;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão */
+.back-btn:hover {
+    background-color: #585858;
+}
+</style>
