@@ -43,7 +43,7 @@ export default function Home() {
         </p>
         <p className="hero-lead reveal" style={{ '--i': 3 }}>
           Apaixonado por tecnologia desde pequeno — do hardware ao código. Crio sites e sistemas com
-          HTML, CSS, JavaScript, React, Node.js e SQL.
+          REACT NATIVE, espero que gostem.
         </p>
         <div className="hero-actions reveal" style={{ '--i': 4 }}>
           <a href="#projetos" className="btn btn-primary">
