@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// base './' permite publicar em qualquer subpasta (ex.: GitHub Pages)
 export default defineConfig({
+  base: './',
   plugins: [react()],
 })
