@@ -3,6 +3,15 @@
 Portfólio em **React + Vite** com cena 3D animada (**React Three Fiber**): teclado, mouse, placa-mãe,
 placa de vídeo, monitor, memória RAM e processador — todos modelados em código.
 
+## 🌐 Acesse online
+
+**👉 [portif-lio-ten-eta.vercel.app](https://portif-lio-ten-eta.vercel.app/)**
+
+O portfólio está publicado na Vercel. Para ver o site não é preciso instalar nada — basta abrir o link acima
+no computador ou no celular. Ele é atualizado automaticamente a cada push na branch `main`.
+
+As instruções abaixo são só para quem quiser rodar ou editar o projeto no próprio computador.
+
 ## Rodar
 
 ```bash
