@@ -29,9 +29,9 @@ export default function About() {
             sites e sistemas, resolver problemas, planejar projetos e trabalhar em equipe.
           </p>
           <p>
-            Desde pequeno gosto de eletrônicos e tecnologia em geral — já mexia em computadores e hoje monto
-            PCs e faço manutenções. Hoje estou evoluindo dentro da <strong className="accent">Hub Floripa</strong>, onde com pessoas icríveis estou me tornando uma pessoa melhor e preparada para esse mundo corporativo.{' '}
-           Agora singo em fernte porque nada melhor do que trabalhar com o que se gosta.
+            Desde pequeno gosto de eletrônicos e tecnologia em geral, já mexia em computadores e hoje monto
+            PCs e faço manutenções. Hoje estou evoluindo dentro da <strong className="accent">Hub Floripa</strong>, onde com pessoas incríveis estou me tornando uma pessoa melhor e preparado para esse mundo corporativo.{' '}
+           Agora sigo em frente porque nada melhor do que trabalhar com o que se gosta.
           </p>
         </div>
 
